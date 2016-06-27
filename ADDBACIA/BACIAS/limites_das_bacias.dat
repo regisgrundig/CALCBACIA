@@ -1,0 +1,10 @@
+SIM paranaiba.bacia     PARANAIBA  paranaiba contorno_paranaiba.shp         -46.0663   -51.7614   -15.4535   -20.1734 PAISAGEM SIM
+SIM iguacu.bacia        IGUACU iguacu contorno_iguacu.shp               -48.9525   -54.5966   -24.9463   -26.8518 PAISAGEM SIM
+SIM parana.bacia PARANA parana contorno_parana.shp               -49.4369   -55.9419   -17.0301   -25.5828 RETRATO  SIM 
+SIM paraibadosul.bacia PARAIBADOSUL paraibadosul contorno_paraibadosul.shp   -41.0059   -46.4169   -20.4325   -23.6388 PAISAGEM SIM 
+SIM saofrancisco.bacia SAOFRANCISCO saofrancisco contorno_sfrancisco.shp     -36.6463   -47.6404    -7.2710   -20.9302 RETRATO  SIM
+SIM grande.bacia GRANDE grande contorno_Grande.shp               -43.5879  -50.3998   -19.4019   -22.8880 PAISAGEM SIM
+SIM paranapanema.bacia PARANAPANEMA paranapanema contorno_paranapanema.shp   -47.3790   -53.0880   -22.1368   -25.6557 PAISAGEM SIM
+SIM tocantins.bacia TOCANTINS tocantins contorno_tocantins.shp         -45.6963   -55.4015    -3.6863   -18.0865 RETRATO  SIM
+SIM uruguai.bacia URUGUAI uruguai contorno_uruguai.shp             -49.2814   -57.6000    -25.000   -31.4414 PAISAGEM SIM  latitude  trocada  de -26.2387 para -25  
+SIM itaipu.bacia ITAIPU itaipu contorno_itaipu.shp               -49.4369   -55.9418   -18.7408   -25.5827 RETRATO  SIM
