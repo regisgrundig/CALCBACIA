@@ -15,7 +15,7 @@ return
 
 
 
-function calcbacia( vargrads, numtempos)  
+function calcbacia( vargrads, numtempos , prefixo)  
 
 * 
 * variaveis globais de controle de fluxo
@@ -130,7 +130,7 @@ ano=substr(datap,9,4)
 mes=substr(datap,6,3) 
 dia=substr(datap,4,2)
 hora=substr(datap,1,2)
-pi=write("../SAIDAS/"bacia".prn",ano' 'mes' 'dia' 'hora' 'valor.t' 'media.t)
+pi=write("../SAIDAS/"prefixo"_"bacia".prn",ano' 'mes' 'dia' 'hora' 'valor.t' 'media.t)
 t=t+1
 
 endwhile
