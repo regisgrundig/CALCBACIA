@@ -145,12 +145,14 @@ endif
 
 if (_args ="</END/>")      
 say "Fim da operacao"
+close ("../UTIL/bacias.dat")
 return
 endif
 
 
 
-endwhile  
+endwhile 
+close ("../UTIL/bacias.dat")
 return 
 
 
