@@ -14,14 +14,19 @@
 %
 % arquivo de saida
 %
-pid=fopen('pontos_de_grade_25km.prn','w');
+pid=fopen('grade_25km_180W180W.prn','w');
+fid=fopen('grade_25km_0a360.prn','w');
 %
 %  
 %
 [tamx,tamy]=size(x);
  for i=1:tamy
      for j=1:tamx
-          fprintf(pid,'%f %f\n',x(i,j),y(i,j));
+          xx=togeo360(x(i,j),1); 
+          fprintf(pid,'%f %f \n',x(i,j),y(i,j));
+          fprintf(fid,'%f %f \n',xx,y(i,j));
+          
+          
      end
  end
  
