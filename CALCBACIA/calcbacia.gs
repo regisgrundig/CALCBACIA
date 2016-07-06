@@ -9,13 +9,13 @@
 
 'open tese.ctl' 
 
-calcbacia(rainc,162)
+calcbacia(rainc,1,162,CHUVA)
 
 return 
 
 
 
-function calcbacia( vargrads, numtempos , prefixo)  
+function calcbacia( vargrads, t0,  numtempos , prefixo)  
 
 * 
 * variaveis globais de controle de fluxo
@@ -61,7 +61,7 @@ say "Processando:"bacia" com "numlin" coordenadas "dbg
 * inicializa variveis indexadas
 *
 n=1
-t=1
+t=t0
 while (t<=numtempos)
 valor.t=0
 media.t=0
@@ -90,7 +90,7 @@ latx=subwrd(_args,2)
 * e armazena o valor em variavel indexada
 * e acumula no tempo para cada ponto
 *  
-t=1
+t=t0
 while ( t<=numtempos)
 'set t 't
 'd 'vargrads''
@@ -111,7 +111,7 @@ endwhile
 *
 * ao fim calcula as médias para cada tempo
 
-t=1
+t=t0
 while (t<=numtempos)
 media.t=valor.t/numlin
 *say "--->"media.t"===+"valor.t
@@ -121,7 +121,7 @@ endwhile
 * grava os dados em um arquivo 
 *
 
-t=1
+t=t0
 while(t<=numtempos)
 'set t 't
 'q time'
